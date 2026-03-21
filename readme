@@ -1,0 +1,25 @@
+# veterinaria
+entrega #3
+
+# DECISIONES TÉCNICAS
+
+## Decisión 1
+IA propuso usar muchos <div>.
+Se decidió usar etiquetas semánticas como <header>, <main>, <section>.
+Porque mejora la accesibilidad y organización del código.
+
+## Decisión 2
+IA no organizó el CSS por secciones.
+Se decidió dividirlo en bloques (reset, layout, formulario).
+Porque facilita el mantenimiento.
+
+## Decisión 3
+IA no definió estados visuales de citas.
+Se decidió usar clases (.pendiente, .atendida).
+Porque permite comunicar información visual sin texto adicional
+
+## autores
+Danilo Ramirez
+Julian Ramirez
+Luis David Correa
+Carlos Andres arroyave
