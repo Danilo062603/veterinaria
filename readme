@@ -1,25 +1,67 @@
-# veterinaria
-entrega #3
+# 🐾 Veterinaria - Entrega #3
 
-# DECISIONES TÉCNICAS
+## 📌 Descripción
 
-## Decisión 1
-IA propuso usar muchos <div>.
-Se decidió usar etiquetas semánticas como <header>, <main>, <section>.
-Porque mejora la accesibilidad y organización del código.
+Este proyecto corresponde a la tercera entrega del sistema de gestión para una veterinaria.
+Incluye una estructura mejorada del código HTML y CSS, aplicando buenas prácticas de desarrollo web.
 
-## Decisión 2
-IA no organizó el CSS por secciones.
-Se decidió dividirlo en bloques (reset, layout, formulario).
-Porque facilita el mantenimiento.
+---
 
-## Decisión 3
-IA no definió estados visuales de citas.
-Se decidió usar clases (.pendiente, .atendida).
-Porque permite comunicar información visual sin texto adicional
+## ⚙️ Decisiones Técnicas
 
-## autores
-Danilo Ramirez
-Julian Ramirez
-Luis David Correa
-Carlos Andres arroyave
+### 🧩 Decisión 1: Uso de HTML semántico
+
+Inicialmente, la IA propuso utilizar múltiples etiquetas `<div>`.
+Sin embargo, se optó por emplear etiquetas semánticas como:
+
+* `<header>`
+* `<main>`
+* `<section>`
+
+**Motivo:**
+Mejora la accesibilidad, la legibilidad del código y la estructura del documento.
+
+---
+
+### 🎨 Decisión 2: Organización del CSS
+
+La IA no estructuró el CSS de forma clara.
+Se decidió dividirlo en secciones:
+
+* Reset
+* Layout
+* Formulario
+
+**Motivo:**
+Facilita el mantenimiento, la escalabilidad y la comprensión del código.
+
+---
+
+### 📊 Decisión 3: Estados visuales de citas
+
+La IA no contempló estados visuales para las citas.
+Se implementaron clases como:
+
+* `.pendiente`
+* `.atendida`
+
+**Motivo:**
+Permite comunicar el estado de las citas de forma visual sin necesidad de texto adicional.
+
+---
+
+## 👨‍💻 Autores
+
+* Danilo Ramírez
+* Julián Ramírez
+* Luis David Correa
+* Carlos Andrés Arroyave
+
+---
+
+## 🚀 Tecnologías utilizadas
+
+* HTML5
+* CSS3
+
+---
