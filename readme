@@ -1,52 +1,85 @@
 # 🐾 Veterinaria - Entrega #3 .
 
+![HTML5](https://img.shields.io/badge/HTML5-Estructura-orange)
+![CSS3](https://img.shields.io/badge/CSS3-Estilos-blue)
+![Estado](https://img.shields.io/badge/Estado-En%20desarrollo-green)
+
+---
+
 ## 📌 Descripción
 
-Este proyecto corresponde a la tercera entrega del sistema de gestión para una veterinaria.
-Incluye una estructura mejorada del código HTML y CSS, aplicando buenas prácticas de desarrollo web.
+Este proyecto corresponde a la **tercera entrega** de un sistema de gestión para una veterinaria 🐶🐱.
+Se enfoca en la construcción de la interfaz utilizando buenas prácticas en HTML y CSS.
+
+---
+
+## 🚀 Cómo ejecutar el proyecto
+
+1. Clona este repositorio:
+
+   ```bash
+   git clone https://github.com/Danilo062603/veterinaria.git
+   ```
+
+2. Abre la carpeta del proyecto
+
+3. Ejecuta el archivo:
+
+   ```bash
+   index.html
+   ```
 
 -
 
 ## ⚙️ Decisiones Técnicas
 
-### 🧩 Decisión 1: Uso de HTML semántico
+### 🧩 Uso de HTML semántico
 
-Inicialmente, la IA propuso utilizar múltiples etiquetas `<div>`.
-Sin embargo, se optó por emplear etiquetas semánticas como:
+Se reemplazó el uso excesivo de `<div>` por etiquetas como:
 
 * `<header>`
 * `<main>`
 * `<section>`
 
-**Motivo:**
-Mejora la accesibilidad, la legibilidad del código y la estructura del documento.
+**✔ Beneficio:**
+Mejora la accesibilidad y la estructura del código.
 
 ---
 
-### 🎨 Decisión 2: Organización del CSS
+### 🎨 Organización del CSS
 
-La IA no estructuró el CSS de forma clara.
-Se decidió dividirlo en secciones:
+El CSS fue dividido en secciones:
 
 * Reset
 * Layout
 * Formulario
 
-**Motivo:**
-Facilita el mantenimiento, la escalabilidad y la comprensión del código.
+**✔ Beneficio:**
+Facilita el mantenimiento y la escalabilidad.
 
 ---
 
-### 📊 Decisión 3: Estados visuales de citas
+### 📊 Estados visuales de citas
 
-La IA no contempló estados visuales para las citas.
-Se implementaron clases como:
+Se implementaron clases para representar estados:
 
 * `.pendiente`
 * `.atendida`
 
-**Motivo:**
-Permite comunicar el estado de las citas de forma visual sin necesidad de texto adicional.
+**✔ Beneficio:**
+Permite identificar el estado visualmente sin texto adicional.
+
+---
+
+## 📁 Estructura del proyecto
+
+```
+veterinaria/
+│── index.html
+│── styles.css
+│── readme
+│── .vscode/
+```
 
 ---
 
@@ -59,9 +92,8 @@ Permite comunicar el estado de las citas de forma visual sin necesidad de texto 
 
 ---
 
-## 🚀 Tecnologías utilizadas
+## 📌 Estado del proyecto
 
-* HTML5
-* CSS3
+🟢 En desarrollo — mejoras continuas en diseño y funcionalidad.
 
 ---
